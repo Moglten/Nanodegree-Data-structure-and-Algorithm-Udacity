@@ -1,0 +1,39 @@
+Problem 3:-
+
+
+###Design
+-----------------------------------
+Considering n as length of Input 
+-----------------------------------
+
+1- Make that input list sorted so i can get from it double 
+   number every loop.
+
+2- Using mergesort because worst case can i get O(nLog(n)).
+
+3- After that i looping throgh list taking 2 number by each 
+   loop to form 2 number biggest i can .
+
+
+###Time Complexity 
+
+- As i said using mergesort was my best way to get in worest 
+  case O(nLog(n)).
+
+- After that i looping throgh list forming 2 number by taking  
+  biggest and biggest taking O(n).
+
+- Now we can say that O(nLog(n)) was the dominated one .
+
+- Over all that program will taking : O(nlog(n)). 
+
+###Space complexity
+
+- My code is two parts mergesort and forming 2 number.
+
+- Mergesort by Divide and conqer method taking O(n) as auxiliery  
+  memory .
+
+- rearrange number that take sorted list dont take any so O(1).
+
+- O(n) + O(1) = O(n).

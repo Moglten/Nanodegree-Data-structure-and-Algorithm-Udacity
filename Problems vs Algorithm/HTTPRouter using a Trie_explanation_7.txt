@@ -1,0 +1,39 @@
+Problem 7:-
+
+
+###Design
+
+
+1- in add handler method i just use insert of trie node i made 
+   to get right place of putting that handler.
+
+2- in lookup method i also was making find method to find 
+   handler of the path.
+
+3- and Using split method to get right path.
+
+
+### Time Complexity
+
+- n here is a Length of path 
+
+- Add handler Method :-
+
+    - that using insert method i declared in RouteTrie class 
+      the insert method ,taking O(n).
+	
+- Look up Method :-
+
+    - By Using the find method in RouteTrie class that simple  
+      taking O(n) by walk through elements of Trie .
+
+- overall that take O(n).
+
+
+### Space Complexity
+
+
+- n here is a element in Trie 
+
+- i make replacing or add in same tire so i didnt use any   
+  Auxiliary memory overall that take : O(1) 

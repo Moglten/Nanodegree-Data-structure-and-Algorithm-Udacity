@@ -1,0 +1,29 @@
+
+for task0:-
+
+i using indexing in Python as i know indexing doesnt take any steps
+so Complixety of it is (O(1)) fixed time .
+
+for task1:-
+
+i used mathematical way to achieve the number that duplicates using set
+and set take to convert O(n) and mathematical notation for simple value take O(1)
+so over all the program take (O(n)).
+
+for task2:-
+
+i used for loop iterates over all number i have so taking O(n) 
+and inside loop i making seach for key that takes(n)
+and max in my dict to get maximum value take O(n)
+that mean the program takes (O(n^2)).
+
+for task3:-
+
+for task3 all i used is looping and no nested one so that take but there is sorted that dominated my Big oh (O(nlog(n))).
+
+for task4:-
+
+and here is O(n^2) in here i used Nested list and sort so that take O(n^2) + O(nLog(n))  = O(n^2) as a dominated Function with growth rate .
+
+
+

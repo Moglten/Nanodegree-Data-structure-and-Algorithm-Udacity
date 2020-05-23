@@ -1,0 +1,21 @@
+problem 6 :- 
+
+###Desgin 
+-------------------------------
+Consider n as length of input 
+-------------------------------
+
+
+1- Declare 2 variable are min and max putting them in value of
+   first item in list .
+
+2- Then, using Linear search for finding min value in the list and max value.
+
+
+###Time Complexity 
+
+- What we did , i looping through the elements of the list that take O(n)
+
+###Space Complexity
+
+-i didin't use any auxiliary memory just i declare 2 intger variables and that approximating to : O(1)

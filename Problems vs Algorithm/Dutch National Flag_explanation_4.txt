@@ -1,0 +1,31 @@
+Problem 4:-
+
+
+###Design
+---------------------------------
+Considering n as length of list
+---------------------------------
+
+1- I initialize 3 pointers to first index for 0s and  second last Index for 2s and iterator .
+
+2- If i find 0 in the iterator index will replace with what in 
+   zero's index.
+
+3- if i find 2 i will make as i make in in 0 put with last   	
+   index.
+
+4- if i find 1 will move on by iterator pointer .
+
+
+###Time Complexity 
+
+- Simple program that loop one time through my list so that over 
+  all taking : O(n).
+
+
+###Space Complexity
+
+- Here i didn't make any clones or another list to use, i was  
+  modifying inputed list so no auxiliery memory.
+
+- O(1) 

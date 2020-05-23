@@ -1,0 +1,46 @@
+
+Problem 2:-
+
+###Design
+
+--------------------------------
+Considering n as length of input 
+--------------------------------
+
+1- find the pivot where i flipped the list 
+
+2- separate the list into 2 parts, one after pivot and one     
+   before pivot each is sorted 
+
+3- because each list is sorted so i will make on 2 list binary 
+   search to find the element 
+
+###Time complexity 
+
+- Considering length of elements as n, we get as an input .
+
+- In getting pivot value in O(log(n)) not more by binary 
+  method .
+
+- Making binary search for each list i got taken  
+  O(log(n/2)) + O(log(n/2)) assuming pivot point in the middle 
+  and we are neglecting rational value.
+
+- Over all that take O(log(n)).
+
+###Space complexity 
+
+- To get space complexity we see if I use more memory then 
+  I get as an input called auxiliary memory.
+
+- So binary search doesn't take any auxiliary memory because 
+  that sort in place taking O(1).
+
+- Finding pivot will take some auxiliary memory because it's   
+  making call of instance of itself in stack .
+
+- Shape of my list and method i use in getting the pivot index ,                                     
+  it will call itself log(n) time .
+
+- So we can say over all take : O(log(O))+O(1) = O(log(n))
+

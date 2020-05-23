@@ -1,0 +1,34 @@
+Problem 1:-
+
+
+###Design
+
+i am here using mathamitacl equation to do that called Newton Equation
+
+1- make precision u want then
+
+2- Using while loop to get more and more accurate answer u can 
+
+3- when u reach value less than precision number then  return integer of it
+
+
+
+###Time Complixity 
+
+- what will make alot of steps in my code will be while loop but condition will make it take log(n) because the method we get root that we plus the number on ratio between number and root all of that dividing on 2.
+
+- same method of binary search .
+
+- n = value of number that inputted .
+ 
+- that all will take :O(log(n))
+
+
+###space complixity 
+
+- what i have is a int number and i make a another one to get the root .
+
+- n = space of integer inputted
+- that will take : O(n)
+
+ 			

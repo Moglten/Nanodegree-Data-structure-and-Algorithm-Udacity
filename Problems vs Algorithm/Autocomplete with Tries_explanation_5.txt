@@ -1,0 +1,27 @@
+Problem 5:-
+
+###Design
+--------------------------------------------------
+Consider that n here as number of element in trie 
+--------------------------------------------------
+
+1-- find get where is start to find by traverse in Trie .
+
+2- using recursion way to take tour in trie and get every word 
+   i can get from it by reach endword .
+
+3- storing words in attributes called words in my init of class.
+
+###Time Complexity
+
+- In getting my place of prefix in the trie take O(n)
+
+- And recursion was as a doubled loop iterate over all element 
+  in trie because it have a for loop inside it so that will take         
+  O(n^2)
+
+- So O(n^2) + O(n) = O(n^2)
+
+###Space Complexity
+
+- I used recursion here that mean i put instance of my program in the stack call so i will make call (n-length) times so that will taking over all : O(n) 
