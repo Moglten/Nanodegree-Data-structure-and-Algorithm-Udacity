@@ -1,0 +1,7 @@
+in block chain problem i used linkedlist method of concatenate it 
+
+
+- first when i wanna add a block all i do going to head and make a block and take the head to point on it 
+
+Time efficiency : O(1)
+space efficiency : O(n)

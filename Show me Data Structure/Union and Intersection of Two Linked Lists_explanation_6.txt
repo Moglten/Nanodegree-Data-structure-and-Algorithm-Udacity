@@ -1,0 +1,15 @@
+intersection and union linkedlist
+ 
+
+union : i convert the linkedlist to list of str and make it as set to handle what dublicated then walk through list1 + list2 making a new linkedlist
+
+time effeicancy : O(n)
+space effeicancy : O(n)
+
+
+intersection : i convert the linkedlist to list of str and make it as set to handle what dublicated then walk through , convert one list of it to set and search by list1 to another i elem in it or not
+
+
+
+time effeicancy : O(n)
+space effeicancy :O(n)

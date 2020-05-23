@@ -1,0 +1,8 @@
+in that problem i used recursion again to move through our group to found my 
+
+- if i found immediately i going back return true and oring that true with false i made it up
+
+
+time efficancy : O(n)
+space efficancy : O(1)
+space commplixity in call stack : O(n)

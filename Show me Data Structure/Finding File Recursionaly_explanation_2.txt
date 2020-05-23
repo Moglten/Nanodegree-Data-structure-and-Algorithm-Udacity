@@ -1,0 +1,9 @@
+here in getting path problem i used recursion to treaverse through file to get where is my suffix 
+
+
+when i reach a file i extract all in it if empty i back if have item i search for suffix in names of it's item 
+
+time effiecancy : O(n)
+space effeicancy : O(1)
+space complixity recursion stack : O(n)
+

@@ -1,0 +1,13 @@
+In RLU_cache i was using ordededDict as best choice for me to do it 
+
+- as init of class i declare mydict that i will storge in and capacity of it and maxlength i should go 
+
+- get func : i used something called try to avoid key error in dict if i found my item so i used it some how i pushed it to end of dict 
+
+- set function : first i checked if not in the keys i have 
+second checking of i reach max capacity of my cache of not 
+after that appening my key and value in dict if not exist if i reach max capcity just remove last one of the cache
+
+
+time effiecancy : O(1)
+space effiecancy : O(n)

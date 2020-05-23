@@ -1,0 +1,19 @@
+in huffman encodding i used 3 function around 
+
+1- checking if phrease i have is not empty else
+
+2- making heap of all letter i have with the frequancy they apper in phrease by making it in node have both 
+
+3 - modifiy in heap that ( heapfiyup and heapifydown ) to handle that case of input is node not number 
+
+4 - by using heap and node making a large tree have letter and number of frequancy of each one 
+
+5 - declearing codes as golobal variale and modifiy it by making codes function by treaversing in tree i have and use make codes in dict to finally encode phrease 
+ 
+6 - in decoding i used while and stack to treaverse in tree with code i have when i hit letter i append it to my phrease again
+
+time efficancy : O(nLog(n))
+space efficancy : O(n)
+
+
+				
